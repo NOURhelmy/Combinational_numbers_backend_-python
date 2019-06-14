@@ -24,7 +24,7 @@ def combs1(n, available, used):
 def run(ss, n, T):
     list = ss.split()
     s = []
-    for st in list:
+    for st in list: 
         s.append(int(st))
     n = int(n)
     T = int(T)
