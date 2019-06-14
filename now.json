@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "API",
+  "builds": [
+    { "src": "**/*.py", "use": "@now/python" }
+  ],
+  "routes": [
+	{ "src": "(.*)", "dest": "mainf.py" }
+  
+  ]
+  
+}
