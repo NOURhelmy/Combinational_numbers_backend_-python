@@ -19,11 +19,18 @@ def combs1(n, available, used):
         for c in combs1(n, available[:], used[:]):
             yield c
 
+def solve(lis):
+    for x in lis:
+        try:
+            yield int(x)
+        except ValueError:
+            pass
 
 @app.route('/<ss>/<n>/<T>')
 def run(ss, n, T):
     list = ss.split()
     s = []
+    list = solve(list)
     for st in list:
         s.append(int(st))
     n = int(n)
