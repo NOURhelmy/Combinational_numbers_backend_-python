@@ -25,7 +25,7 @@ def run(ss, n, T):
     list = ss.split()
     s = []
 
-    for st in list if :
+    for st in list:
         s.append(int(st))
         
     n = int(n)
