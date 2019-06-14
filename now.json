@@ -5,7 +5,7 @@
     { "src": "**/*.py", "use": "@now/python" }
   ],
   "routes": [
-	{ "src": "(.*)", "dest": "mainf.py" }
+	{ "src": "(.*)", "dest": "mainf.py" } 
   
   ]
   
