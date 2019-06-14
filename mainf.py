@@ -22,7 +22,7 @@ def combs1(n, available, used):
 def solve(lis):
     for x in lis:
         try:
-            yield int(x)
+            yield float(x)
         except ValueError:
             pass
 
@@ -32,10 +32,10 @@ def run(ss, n, T):
     s = []
     list = solve(list)
     for st in list:
-        s.append(int(st))
-    n = int(n)
-    T = int(T)
-    s = s * n
+        s.append(float(st))
+    n = float(n)
+    T = float(T)
+    s = s * int(n)
     i = 0
     sum = 0
     h = 0
